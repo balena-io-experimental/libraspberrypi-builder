@@ -15,3 +15,4 @@ bash -ex buildme /$PGK_DIR/hardfp
 cd /$PGK_DIR
 debuild -aarmhf -us -uc
 cp /libraspberrypi* /output
+cp /raspberrypi-bootloader-nokernel* /output
