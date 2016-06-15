@@ -18,7 +18,7 @@ RUN apt-get update && apt-get install -y \
 	&& rm -rf /var/lib/apt/lists/* \
 	&& apt-get -y autoremove
 
-ENV PGK_DIR raspberrypi-firmware-nokernel-1.20150212
+ENV PGK_DIR raspberrypi-firmware-nokernel-1.20160523
 
 RUN git clone https://github.com/resin-io-playground/userland.git \
 	&& curl -SLO https://github.com/raspberrypi/tools/archive/648a6eeb1e3c2b40af4eb34d88941ee0edeb3e9a.tar.gz \
